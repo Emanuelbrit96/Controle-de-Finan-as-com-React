@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 150px;
+
+  background-color: teal;
+}
+
+h1 {
+  color: #fff;
+
+  padding-top: 20px;
+}
