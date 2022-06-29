@@ -1,8 +1,14 @@
-import "./style.css";
-export default function Header() {
+import React from "react";
+import * as C from "./style";
+
+const Header = () => {
   return (
-    <div className="header">
-      <h1>Controle Financeiro</h1>
-    </div>
+    <C.Container>
+      <C.Header>
+        <C.Title>Controle Financeiro</C.Title>
+      </C.Header>
+    </C.Container>
   );
-}
+};
+
+export default Header;
